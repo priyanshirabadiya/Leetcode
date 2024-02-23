@@ -1,4 +1,4 @@
-// // sum positions
+// sum positions
 // #include<stdio.h>
 // int main()
 // {
@@ -21,20 +21,3 @@
 //     return 0;
 // }
 
-
-// revese number
-
-// #include<stdio.h>
-// int main()
-// {
-//     int i , j , n , rev;
-//     printf("enter n:");
-//     scanf("%d",&n);
-//     while(n!=0)
-//     {    
-//         rev = n % 10;
-//         printf("%d",rev);
-//         n = n / 10;
-//     }
-//     return 0;
-// }
