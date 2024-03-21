@@ -14,11 +14,11 @@
 
 
 
-var strStr = function (string1, string2) {
-   return string1.indexOf(string2);
+var strStr = function (haystack, needle) {
+   return haystack.indexOf(needle);
 };
 
 const originalstring = "sadbutsad";
-const originalstring2 = "sad";
-console.log("Input:", "string1 =", originalstring, ",", "needle =", originalstring2);
+const originalstring2 = "sam";
+console.log("Input:", "haystack =", originalstring, ",", "needle =", originalstring2);
 console.log("Output:", strStr(originalstring, originalstring2)); 

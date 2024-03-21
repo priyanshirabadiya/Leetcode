@@ -8,14 +8,14 @@ Open brackets must be closed by the same type of brackets.
 Open brackets must be closed in the correct order.
 Every close bracket has a corresponding open bracket of the same type.*/
 
-function myfun(string) {
+function myfun(s) {
     let arr = []
     let obj = {
         '(' : ')',
         '[':']',
         '{':'}'
     }
-    for(let x of string){
+    for(let x of s){
     if(x in obj){
             arr.push(x)
         }else{
@@ -27,8 +27,8 @@ function myfun(string) {
     }
     return arr.length == 0
  }
- const string = "[]"
- console.log("Input string:", string);
- console.log("Result:", myfun(string));
+ const s = "[]"
+ console.log("Input s:", s);
+ console.log("Result:", myfun(s));
 
  
